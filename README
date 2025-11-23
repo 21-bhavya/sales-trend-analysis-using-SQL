@@ -1,0 +1,17 @@
+📊 Sales Trend Analysis Using SQL
+
+**Monthly sales analysis using SQL aggregations to study revenue and order trends.**
+
+## 📁 Repository Contents
+- **SQL_SCRIPT.sql** – SQL code for monthly revenue and order volume analysis  
+- **SCREENSHOTS.pdf** – Output screenshots from the SQL execution  
+
+## 🛠️ Tools Used
+- SQL (MS SQL SERVER - SSMS)
+
+## 📈 Summary
+Performed month-wise sales trend analysis using:  
+- `EXTRACT()` for month/year  
+- `SUM(amount)` for revenue  
+- `COUNT(DISTINCT order_id)` for order volume  
+- `GROUP BY` and `ORDER BY` for trend reporting  
